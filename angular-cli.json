@@ -1,0 +1,30 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "project": {
+    "name": "sails-angular-starter"
+  },
+  "apps": [
+    {
+      "root": "assets",
+      "outDir": "assets/dist/",
+      "assets": [
+        "assets",
+        "favicon.ico"
+      ],
+      "main": "app/main.ts",
+      "polyfills": "app/polyfills.ts",
+      "tsconfig": "../tsconfig.json",
+      "prefix": "app",
+      "scripts": []
+    }
+  ],
+  "e2e": {
+    "protractor": {
+      "config": "./protractor.conf.js"
+    }
+  },
+  "defaults": {
+    "styleExt": "css",
+    "component": {}
+  }
+}
